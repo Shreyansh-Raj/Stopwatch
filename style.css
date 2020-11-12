@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(3,auto); */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    text-align: center;
+    /* border: 5px solid red; */
+    width: 25%;
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+
+#time{
+    font-size: 5.4rem;
+}
+
+.btn{
+    font-size: 1.2rem;
+    padding: 0px 18px;
+    font-family: 'Baloo 2', cursive;
+    cursor: pointer;
+    outline: none;
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+    border-radius: 3px;
+    margin: 0px 10px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #007bff;
+}
+.buttons{
+    margin-top: 10px;
+}
