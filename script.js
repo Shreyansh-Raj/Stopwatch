@@ -42,7 +42,7 @@ function reset(){
         ms = 00;
         clearInterval(running);
         console.log(running)
-        document.getElementById('time').innerHTML = `${h}:${s}:${ms}`;
+        document.getElementById('time').innerHTML = "00:00:00";
         console.log("R")
         if (document.getElementById('start').innerHTML=="Stop"){
             console.log("H")
@@ -53,7 +53,6 @@ function reset(){
         h = 00;
         s = 00;
         ms = 00;
-        // clearInterval(running);
-        document.getElementById('time').innerHTML = `${h}:${s}:${ms}`;
+        document.getElementById('time').innerHTML = "00:00:00";
     }
 }
