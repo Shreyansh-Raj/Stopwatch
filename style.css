@@ -4,9 +4,6 @@
 }
 
 body{
-    /* display: grid;
-    grid-template-columns: repeat(3,auto);
-    grid-template-rows: repeat(3,auto); */
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -15,14 +12,13 @@ body{
 
 #container{
     text-align: center;
-    /* border: 5px solid red; */
     width: 25%;
     font-family: 'Noto Sans', sans-serif;
     
 }
 
 #time{
-    font-size: 5.4rem;
+    font-size: 3.8rem;
 }
 
 .btn{
